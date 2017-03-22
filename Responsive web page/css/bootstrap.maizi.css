@@ -1,0 +1,265 @@
+body {
+    font-family: "Î¢ÈíÑÅºÚ" ;
+}
+.navbar-header .navbar-brand img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+   
+}
+.navbar-default{
+    background-color: #def9fb;
+    border:none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.35);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color:#40D2B1;
+    height: 80px;
+    line-height: 50px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 18px;
+    color:#666;
+    height: 80px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.navbar-toggle{
+    margin-top:20px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color:#40D2B1;
+    background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3399b3;
+}
+.nav_icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color:#fff;
+
+    background: #333a41;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 5px;
+}
+ .nav_icon:hover{
+     background: #40D2B1;
+}
+
+/*home*/
+#home{
+    margin-top: 70px;
+    background: url("../images/home-bg.jpg");
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    color:#ffffff;
+    text-align: center;
+    width: 100%;
+}
+/*ÂË¾µ*/
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    color: #094a9e;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 30px;
+
+}
+#home img{
+    margin-top: 30px;
+    padding:0 20px;
+    display: inline-block;
+}
+/*bbs*/
+#bbs{
+    padding: 70px 0;
+    text-align:center;
+
+}
+#bbs .col-md-4:{
+    padding: 15px;
+}
+
+
+#bbs .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+    color: #2e1824;
+    text-decoration: none;
+}
+#bbs img{
+    margin:0 auto;
+}
+#bbs h3{
+    font-weight: bold;
+}
+/*html5+bootstrap*/
+#html5 {
+    background: #f8f8f8;
+}
+#html5 ,#bootstrap{
+
+    padding: 70px 0;
+}
+#html5 .col-md-6 , #bootstrap .col-md-6 {
+    /*padding: 20px;*/
+    height: 260px;
+}
+#html5 .col-md-6 img , #bootstrap .col-md-6 img {
+    margin: 10px auto;
+    height: 240px;
+    width: 580px;
+}
+#html5 .col-md-6:hover, #bootstrap .col-md-6:hover {
+    background: #f1f1f1;
+    box-shadow: 2px 2px 4px #8eccc9;
+    border-radius: 5px;
+
+}
+#html5 h2 , #bootstrap h2{
+    font-weight: bold;
+}
+#html5 p , #bootstrap p{
+    line-height: 25px;
+}
+.leaf-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color:#fff;
+    background: #40D2B1;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+/*course*/
+#course{
+    background: #f8f8f8;
+    padding: 70px 0;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#course .course{
+    /*background: #fcfffa;*/
+}
+#course .course img {
+    height: 180px;
+    width: 400px;
+    margin: 10px 0;
+
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+#course .course img:hover{
+
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+#course .course a:hover {
+    box-shadow: 0 0 2px 1px rgba(112, 186, 84, 0.5);
+    color:#40D2B1;
+    background-color: #fff;
+    font-weight: bold;
+}
+/*app*/
+#app{
+  padding:70px;
+}
+#app h2{
+    font-weight: bold;
+
+    color:#40D2B1;
+}
+#app p{
+    line-height: 35px;
+    font-size: 16px;
+    color: #332252;
+}
+#app .btn{
+    margin: 10px 0;
+    /*border-color:#40D2B1;*/
+    margin-right: 10px;
+    padding:10px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    border-color:#40D2B1;
+    background-color: #40D2B1;
+    font-weight: bold;
+    color:#000000;
+}
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.png") ;
+    background-size: cover;
+    color:#ffffff;
+
+}
+#contact .container{
+    margin-top:60px;
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+#contact p{
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+/*±íµ¥*/
+#contact .form-control {
+    border:none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 30px;
+}
+textarea .form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: #1f6655;
+    color:#000000;
+}
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+
+    padding: 25px;
+    font-size: 18px;
+    background-color: #def9fb;
+}
