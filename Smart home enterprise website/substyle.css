@@ -1,0 +1,220 @@
+#middlebox {
+        height: 600px;
+    }
+    #prolistleft {
+        width: 250px;
+        float:left;
+        /* border:solid 1px silver; */
+        height: 600px;
+    }
+    #prolistright{
+        width: 848px;
+        float:left;
+        margin-left:10px;
+         /* border:solid 1px silver; */
+         height: 600px;
+    } 
+    #box1{
+
+    }
+    #box1 h1{
+        background:#363422;
+        height: 35px;
+        font-size:20px;
+        line-height: 35px;
+        color:#fff;
+        text-indent: 20px;
+        font-family:"华文细黑";
+    }
+
+    #box1 ul{
+        list-style:none;
+
+    }
+
+    #box1 ul  :hover{color:#24890d;background-color:#666666;}
+    #box2 ul  :hover{color:#24890d;background-color:#666666;}
+    #box3 ul :hover{color:#24890d;background-color:#666666;}
+
+    #box1 ul li{
+        /* background: #dbdde6; */
+        line-height:28px;
+        /* border-bottom-style: solid;
+        border-width:1px ; */
+        text-indent: 20px;
+    }
+    #box1 ul li a{
+        color:#000;
+         font-weight:bold;
+         font-family:"华文细黑";
+    }
+
+    #box2 h1{
+        background:#363601;
+        height: 35px;
+        font-size:20px;
+        line-height: 35px;
+        color:#fff;
+        text-indent: 20px;
+        border-radius:5px;
+        font-family:"华文细黑";
+    }
+    #box2 ul{
+        list-style:none;
+    }
+    #box2 ul li{
+       /* background: #dbddc3;  */
+        line-height:28px;
+        /* border-bottom-style: solid;
+        border-width:1px ; */
+        text-indent: 20px;
+    }
+    #box2 ul li a{
+        color:#000;
+        font-size:14px;
+        font-weight:bold;
+        font-family:"华文细黑";
+    }
+        
+
+ #box3{
+
+    }
+    #box3 h1{
+        background:#363601;
+        height: 34px;
+        font-size:22px;
+        line-height: 35px;
+        color:#fff;
+        text-indent: 20px;
+        font-family:"华文细黑";
+    }
+    #box3 ul{
+        list-style:none;
+    }
+    #box3 ul li{
+        /* background: #dbdde6; */
+        line-height:28px;
+       /*  border-bottom-style: solid;
+        border-width:1px ; */
+        text-indent: 20px;
+    }
+    #box3 ul li a{
+        color:#000;
+        font-weight:bold;
+        font-family:"华文细黑";
+
+    }
+    #topimg{
+        padding:10px;
+        border-bottom:dotted #333333 2px; 
+    }
+
+    #probox{
+        margin-top:20px;
+        margin-left:10px;
+        padding:5px;
+        height:200px;
+        width: 190px;
+        border:solid 1px silver;
+        border-radius: 5px;
+    }
+     #probox img {
+        width: 190px;
+        height:130px;
+     }
+   #probox:hover{
+    background-color:silver;
+    box-shadow: 0 0 2px 2px rgba(0,140,186,0.5)
+    }
+
+   #newlist{}
+
+   #newlist ul{
+    list-style: none;
+   }
+    #newlist ul li{
+    line-height: 25px;
+    height:30px;
+    height:30px;
+    position: relative;
+   }
+    #newlist ul li a{
+    color:#666;
+   }
+   #newlist ul li span{
+    position: absolute;
+    right:10px;
+   }
+    #newlist ul li a:hover{
+    color:rgba(0,140,186,0.5);
+    font-weight: bold;
+
+   }
+   #prodetail {
+        
+        height:35px;
+         
+   }
+ #prodetail h3{
+        text-align:center;
+        color:red;
+        line-height:35px;
+   }
+ #prodetail p{
+        text-align:center;
+       
+        font-size:10px;
+      
+        /* border-bottom:dotted #333333 1px;  */
+   }
+ #detailImg{
+    height:440px;
+    width: 848px;
+ }
+#detailImg img {
+    width: 524px;
+    height: 440px;
+    margin:5px auto;
+    text-align: center;
+    display:block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#detailImg img:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.6);
+}
+
+    #page ul.pagination{
+        display: inline-block;
+        margin: 0;
+        padding: 0; 
+      
+    }
+    #page ul.pagination li{
+        display: inline; 
+
+
+    }
+    #page ul.pagination li a {
+        float:left;
+        color:black; 
+        padding:8px 16px; 
+        float:left;
+        text-decoration: none;
+        border:1px solid #ddd;
+        margin:0 4px;
+        
+
+    }
+    #page ul.pagination li a.active{
+        color:white; 
+        background-color: #4CAF50;
+         border: 1px solid #4CAF50;
+
+    }
+    ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+    #page {
+      text-align: center; 
+   }

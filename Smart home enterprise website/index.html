@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+<title>企业网站首页</title>
+
+<link rel="stylesheet" href="style.css" />
+   <script type="text/javascript" src="index.js">
+    
+</script>
+<!--[if lt IE 9]> 
+<script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script> 
+<![endif]--> 
+ 
+</head>
+
+<body>
+
+	<div id="mainbox">
+        <!--在线咨询-->
+        
+        <!--上面的容器-->
+    	<div id="topbox">
+
+        	 <!--logo-->
+        	<div id="logo">
+
+                <div class="logo1"><img src="images/新智达logo1副本.png" width="160" height="100" /></div>
+
+                <div class="logofont"><span class="logospan">广州新智达智能家居公司</span></div>
+                <div style="position:absolute;bottom:15px;right:10px"><img src="images/top.jpg" alt="" /></div>
+                
+                <div id="setindex">
+                    <ul>
+                        <li><a href="#">设为首页</a></li>
+                        <li><a href="#">|</a></li>
+                        <li><a href="#">联系我们</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            
+            <!--menu-->
+            <div id="mainmenu" >
+                <!-- 一级导航菜单 -->
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="prolist.html">产品页面</a></li>
+                        <li onmouseover="showobj('nav_1')" onmouseout="hiddenobj('nav_1')"><a href="newslist.html">新闻资讯</a></li>
+                        <li><a href="prodetail.html">产品介绍</a></li>
+                        <li><a href="fangan.html">解决方案</a></li>
+                        <li><a href="#">体验中心</a></li>
+                        <li><a href="#">成功案例</a></li>
+                        <li><a href="#">加盟合作</a></li>
+                        <li><a href="#">资料下载</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+
+                <!-- 二级菜单 -->
+                <div id="nav_1" onmouseover="showobj('nav_1')" onmouseout="hiddenobj('nav_1')" style="display:none; ">
+                    <ul>
+                        <li><a href="Newsdetail.html">公司新闻</a></li>
+                        <li><a href="#">行业新闻</a></li>
+                        <li><a href="#">国内新闻</a></li>
+                        <li><a href="#">国际新闻</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        
+        </div>
+        <!--banner广告-->
+        <div id="bannerbox" >
+            <div>
+                <img src="images/banner1.jpg" width="1113" id="banner1"/>
+            </div>
+
+        <!--按钮-->
+            <div id="spanbtn" >
+                <span id="span0" onmouseover="showbannerbyid(1)" onmouseout=" btnmouseout()">1</span>
+                <span id="span1" onmouseover="showbannerbyid(2)" onmouseout=" btnmouseout()">2</span>
+                <span id="span2" onmouseover="showbannerbyid(3)" onmouseout=" btnmouseout()">3</span>
+                <span id="span3" onmouseover="showbannerbyid(4)" onmouseout=" btnmouseout()">4</span>
+            </div>
+        </div>
+    
+        <!--中间的容器-->
+        <div id="middlebox">
+
+            <!--中间的上部分-->
+        	<div id="midtop">
+
+            <!--新闻box-->
+
+                <div id="newsbox" class="topleft">
+                    <div class="toptitle">
+                       <div class="tittleimg" >
+                           <span>新闻动态 News</span> 
+                       </div> 
+                    </div>
+
+                    <div class="toplist">
+                        <div class="newsimg" ><img src="images/newsimg.jpg" alt="" /></div>
+
+                         <ul class="newslistul">
+                             <li><a href="">家庭应用：全新创意下的智能家庭</a></li>
+                             <li> <a href="">酒店应用：智达智能打造一个智能酒店</a></li>
+                             <li><a href="">智能小区：智达智达打造一个全新的智能时代</a></li>
+                             <li><a href="">智能产品：让您的家人和出门在外感到安心和</a></li>
+                             
+                         </ul>            
+                    </div>
+
+
+                </div>
+                    <!--公司box-->
+                <div id="companybox"  class="topleft" style="width:400px">
+                    <div class="toptitle">
+                       <div class="tittleimg" >
+                           <span>公司动态 COMPANY</span> 
+                       </div> 
+                    </div>
+                    <div class="toplist">
+                        <div class="newsimg" ><img src="images/companyimg.jpg" alt="" /></div>
+                         <div class="listSpan">
+                             <span >
+                                 广州新智达智能家居有限公司，是专门从事智能家居研发与制造销售的公司。自创立至今，坚持创新满足消费者的切实需求，倡导健康环保的生活方式。其品牌理念是让每个家庭享受更加幸福的居家生活，以最终打造出符合中国人需求的全屋健康智能家居为目标。旗下主打产品为骊庭全金属智能衣柜等。
+                             </span>
+                         </div>         
+                    </div>
+                </div>
+                    <!--链接box-->
+                <div id="linkbox" class="topleft">
+                    <div class="toptitle">
+                       <div class="tittleimg" >
+                           <span>联系我们 Contact Us</span> 
+                       </div> 
+                    </div>
+
+                    <div class="toplist">
+                        <div class="newsimg" ><img src="images/Contactimg.jpg" alt="" /></div>
+
+                         <ul class="linkus" >
+                             <li>公司名称：广州新智达智能家居技术开发有限公司</li>
+                             <li>公司地址：广东省广州市天河区天河路</li>
+                             <li>公司电话：400-12344555</li>
+                             <li>公司传真：400-12344555</li>
+                             <li>业务负责人：陈先生</li>
+                             <li>公司网址：www.zhinengjiaju.com</li>
+                            
+                             
+                         </ul>            
+                    </div>
+                </div>
+
+            </div>
+            <!--中间的下部分-->
+            
+            <div id="midbottom">
+
+                <div id="videobox" class="topleft" style="height:280px">
+                    <div class="toptitle" style="height:40px" >
+                       <div class="tittleimg"  >
+                           <span >视频中心 Video</span> 
+                       </div> 
+                    </div>
+
+                    <div >
+                        <video controls="controls" width="325"  height="230" src="video/video.mp4" >你的浏览器版本太老不支持html5视频播放</video>
+                    </div>
+                </div>
+
+                 <div id="productsbox" class="topleft" style="height:280px; width:743px">
+                    <div class="toptitle">
+                       <div class="tittleimg" >
+                           <span>产品展示 Product Display</span> 
+                       </div> 
+                    </div>
+
+                <!-- 无缝滚动 -->
+                
+                    <div id="demo">
+                        <div id="indemo" >
+
+                            <div id="demo1">
+
+                                <div style="float:left">
+                                    <div>
+                                       <a href="#"><img src="images/product1.jpg"  /></a> 
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span style="color:#333">红外转化器</span>
+                                    </div>
+
+                                </div>
+
+                               <div style="float:left">
+                                    <div>
+                                        <a href="#"><img src="images/product2.png"  /></a>
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span style="color:#333">家控微型主机</span>
+                                    </div>
+
+                                </div>
+
+                                <div style="float:left">
+                                    <div>
+                                         <a href="#"><img src="images/product3.png"  /></a>
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span style="color:#333">家控微型主机</span>
+                                    </div>
+
+                                </div>
+                                <div style="float:left">
+                                    <div>
+                                        <a href="#"><img src="images/product4.jpg"  /></a>
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span style="color:#333">家控微型主机</span>
+                                    </div>
+
+                                </div>
+                                <div style="float:left">
+                                    <div>
+                                        <a href="#"><img src="images/product5.png"  /></a>
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span style="color:#333">家控微型主机</span>
+                                    </div>
+
+                                </div>
+    
+                            </div>
+
+                            <div id="demo2" >
+
+                               
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                  
+                    
+                </div>
+
+
+            </div>
+    
+        </div>
+        
+        
+        <!--底部的容器-->
+        <div id="bottombox">
+            <div id="bbox">
+                <div>地址：广东省广州市天河区天河路 电话：020-8888888,020-8888882 邮箱：954145624@qq.com 新智达智能有限公司</div>
+                <div>CoprRight 2015 All Right Reserved ICP 备案号：粤ICP备12004836号</div>
+                </div>
+            </div>
+           
+    </div>
+
+
+</body>
+</html>

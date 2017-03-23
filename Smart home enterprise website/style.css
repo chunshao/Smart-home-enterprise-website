@@ -1,0 +1,288 @@
+	/* 设置默认边框 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{
+	padding:0;
+	margin:0;
+}
+
+	
+
+body{
+	/* background: url(images/bj.gif); */
+	background-color:#666666;
+}
+a{
+	text-decoration: none;
+}
+
+/* mainbox的样式 */
+#mainbox {
+	/* border:solid 1px red; */
+	width:1113px;
+	
+	margin:0 auto;
+}
+#topbox{
+	 background: url(images/bj.gif);
+	 /* background-color:#333; */
+}
+
+/* logo的样式 */
+#logo {
+	height: 120px;
+	line-height: 95px;
+	position: relative;/* 父容器用relative */
+}
+.logo1{
+	width: 120px;
+	float: left;
+	position: absolute;/* 子容器用absolute */
+	bottom:20px;
+}
+.logofont{
+	position: absolute;/* 子容器用absolute */
+	bottom:35px;left:165px;
+
+}
+.logospan {
+	font-size: 25px;float: left;
+	width: 300px;font-weight: bold;height: 60px;
+	color:#333;font-family: "微软雅黑";
+
+}
+
+/* nav的样式 */
+#mainmenu {
+	position:relative;/* 父容器用relative */
+}
+#nav {
+	background: url(images/navbj.jpg) repeat-x;
+	line-height: 44px;
+
+}
+#nav ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+#nav  ul li:hover{ color:white;background-color:#333;}
+
+#nav ul li {
+	display:inline-block;
+	background: url(images/navimg.jpg) no-repeat center right;
+	width: 90px;
+	text-align: center;
+	line-height: 44px;
+
+}
+#nav ul li a{
+	
+	font-size: 16px;
+	font-weight: bold;
+	color:black;
+}
+
+/* nav_1二级菜单的样式 */
+
+
+#nav_1 {
+	position: absolute;/* 子容器用absolute */
+	top:44px;
+	left:200px;
+	z-index: 1000;
+	
+}
+#nav_1 ul {
+	list-style: none;
+
+}
+#nav_1 ul li {
+	width: 80px;
+	line-height: 35px;	
+	border-radius: 4px;
+	background-color: seagreen;
+	text-align: center;
+	margin-bottom: 2px;	
+	font-family: "宋体";
+}
+#nav_1 ul li a {
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+}
+#nav_1 ul  :hover{color:black;background-color: silver;}
+
+/* banner广告的样式 */
+#bannerbox {
+	position:relative;/* 父容器用	relative */
+}
+
+#spanbtn{    
+	position: absolute;/* 子容器用absolute */
+	right:20px;
+	bottom: 10px;
+}
+#spanbtn span{
+	display:inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	color:white;	
+	border-radius: 20px;
+	text-align: center;
+	background-color: seagreen;
+}
+
+#spanbtn span:hover{color:black;background-color: silver;}
+
+
+/* 中间内容midtop的样式 */
+
+#midtop {
+	background: url(images/content_bg.jpg)  repeat-x;
+	height: 360px;
+}
+.topleft{
+	background: url(images/content_sm_bg.jpg) repeat-x;
+	height: 336px;
+	width: 325px;
+	float:left;
+	margin-left: 16px;
+	border:solid 1px #d7d7d7;
+}
+.topleft span {
+	font-size: 18px;
+	color:#c60;
+	font-weight: bold;font-family: "微软雅黑";
+	line-height: 55px;
+	
+}
+.tittleimg {
+	margin-left: 15px;
+	text-indent:30px;
+	background:url(images/contentimg.jpg)  no-repeat left center;
+}
+.newsimg {
+	text-align:center ;
+	margin:15px;
+}
+.newslistul {
+	list-style: none;
+	margin-left: 20px;
+}
+.newslistul li{
+	font-size:14px;
+	color:#5D5A5A; 
+	line-height: 30px;
+	background: url(images/ico.jpg) no-repeat center left ;
+	text-indent: 20px;
+	border-bottom:#5D5A5A 1px dotted ;
+}
+.newslistul li a{
+	font-size:14px;
+	color:#5D5A5A; 
+	line-height: 30px;
+	
+	text-indent: 20px;
+
+}
+
+.newslistul li a:hover{
+
+    color:rgba(0,140,190,0.7);
+
+  
+}
+
+
+.listSpan span {
+	font-size:14px;
+	font-weight:normal;
+	color:#5d5a5a;
+	line-height: 28px;
+	margin: 20px;
+	text-indent: 40px;
+}
+.linkus {
+	list-style: none;
+	margin-left: 20px;
+	text-indent: 20px
+} 
+.linkus li {
+	font-size:12px;
+	color:#5D5A5A; 
+	line-height: 30px;
+}
+
+/* 中间内容midbottom的样式 */
+#midbottom {
+	background: url(images/content_bg.jpg);
+	height: 300px;
+}
+
+/* demo的样式 */
+#demo {
+	background: #fff;
+	width: 743px;
+	margin:10px auto;
+	overflow: auto;
+	border:solid 1px dashed;
+}
+#demo img{
+	
+	height:160px;
+	width: 375px;
+}
+#indemo {
+
+	float: left;
+	width: 800%;
+}
+
+#demo1 {
+	
+	float: left;
+}
+#demo2 {
+	
+	float: left;
+
+}
+
+
+
+
+/* bottombox的样式 */
+#bottombox{
+	background-color:#333;
+	height: 150px;
+	width: 100%;
+
+}
+#bbox {
+	padding:25px;
+	color:silver;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
+/* setindex的样式 */
+#setindex {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	right: -15px;
+	height: -30px;
+}
+#setindex ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+#setindex ul li{
+	display: inline;
+}
+#setindex ul li a{
+	color:#690;
+	font-size: 18px;
+	font-weight: bold;
+}
